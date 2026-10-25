@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# local tooling and scratch
+.claude/
+.artifacts/
+graphify-out/
+HANDOFF.md
+
+# logs and OS
+npm-debug.log*
+.DS_Store
+Thumbs.db

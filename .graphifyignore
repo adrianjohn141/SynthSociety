@@ -1,0 +1,2 @@
+# Old code snapshots kept for comparison; they duplicate lib/, app/ and components/ in the graph.
+.artifacts/before-*/

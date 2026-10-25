@@ -1,0 +1,18 @@
+{
+  "name": "synthetic-society",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node lib/art.test.js && node lib/roads.test.js && node lib/gait.test.js && node lib/brain.test.js && node lib/farm.test.js && node lib/social.test.js && node lib/home-life.test.js && node lib/households.test.js && node lib/housing.test.js && node lib/work-life.test.js && node lib/ceremony.test.js && node lib/conversations.test.js && node lib/mind.test.js && node lib/visitor-meet.test.js && node lib/profiles.test.js && node lib/outing-quality.test.js && node lib/fishing.test.js && node lib/life.test.js && node lib/town-life.test.js && node lib/living-polish.test.js && node lib/sim.test.js"
+  },
+  "dependencies": {
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.186.1"
+  }
+}
